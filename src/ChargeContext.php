@@ -82,7 +82,6 @@ class ChargeContext
                 case Config::WX_CHANNEL_BAR:
                     $this->channel = new WxBarCharge($config);
                     break;
-
                 case Config::CMB_CHANNEL_WAP:
                 case Config::CMB_CHANNEL_APP:
                     $this->channel = new CmbCharge($config);

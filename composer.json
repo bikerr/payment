@@ -16,6 +16,8 @@
         "php": ">=5.6",
         "ext-bcmath": "*",
         "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
         "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
